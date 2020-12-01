@@ -1,3 +1,85 @@
 body {
     background-color: lightgreen;
+    display: grid;
+    grid-template-columns: repeat(12);
+    grid-auto-rows: minmax(100px, auto);
+    gap: 10px;
+}
+
+* {
+    box-sizing: border-box; 
+}
+
+header {
+    background-color: lightpink;
+    width: 100%;
+    grid-column: 1/12;
+    grid-row: 1;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    text-align: center;
+    grid-template-areas:
+        "brand nav tools";
+}
+header .brand {
+    background-color: whitesmoke;
+    grid-area: brand;
+}
+header nav {
+    background-color: whitesmoke;
+    grid-area: nav;
+}
+
+header .tools {
+    background-color: whitesmoke;
+    grid-area: tools;
+}
+
+.hero {
+    background-color: lightgrey;
+    grid-column: 1/9;
+    grid-row: 2;
+
+    display: grid;
+    text-align: center;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+        "Feature Action";
+}
+
+.Feature {
+    background-color: rgb(247, 247, 152);
+    grid-area: Feature;
+}
+
+.Action {
+    background-color: rgb(247, 247, 152);
+    grid-area: Action;
+}
+
+.desktop-Ad {
+    background-color: lightsalmon;
+    grid-column: 9/12;
+    grid-row: 2;
+}
+
+main {
+    background-color: lightyellow;
+    grid-column: 1/9;
+    grid-row: 3;
+}
+
+.Sidebar {
+    background-color: lightsteelblue;
+    grid-column: 9/12;
+    grid-row: 3;
+
+}
+footer {
+    background-color: lightseagreen;
+    grid-column: 1/12;
+    grid-row: 4;
 }
