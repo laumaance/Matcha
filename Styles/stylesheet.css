@@ -178,7 +178,6 @@ main .mobile-ad {
 
     .hero {
         grid-template-columns: 2fr 1fr;
-        grid-template-rows: 1fr;
         grid-area: hero;
         grid-template-areas: 
         "feature action";
@@ -188,7 +187,7 @@ main .mobile-ad {
         grid-template-columns: 1fr 2fr;
         grid-template-rows: 1fr;
         grid-template-areas: 
-        "article-feature listing";
+        "article-feature listing ";
     }
     .mobile-ad {
         display: none;
