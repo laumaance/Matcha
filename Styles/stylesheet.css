@@ -59,6 +59,7 @@ header .tools {
 
 main {
     background-color:lightpink;
+    font-size: 20px;
     grid-area: body;
 
     display: grid;
@@ -103,6 +104,7 @@ main .mobile-ad {
 
  .sidebar {
     background-color: lightpink;
+    font-size: 20px;
     grid-area: sidebar;
     display: none;
 }
