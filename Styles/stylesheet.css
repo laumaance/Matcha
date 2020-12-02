@@ -21,7 +21,7 @@ header {
     gap: 10px;
     grid-template-areas:
     "brand brand"
-    "nav tools";
+    "nav tools"
 }
 
 header .brand {
@@ -45,7 +45,7 @@ header .tools {
     gap: 10px;
     grid-template-areas:
     "action"
-    "feature";
+    "feature"
 }
 .hero .action {
     background-color: rgba(240, 128, 128, 0.473);
@@ -67,7 +67,7 @@ main {
     grid-template-areas: 
     "article-feature"
     "ad"
-    "listing";
+    "listing"
 }
 
 main .article-feature {
@@ -133,18 +133,18 @@ main .mobile-ad {
             "hero"
             "body"
             "sidebar"
-            "footer";
+            "footer"
     }
     
     header {
         grid-template-columns: 1fr 2fr 1fr;
         grid-template-areas: 
-        "brand nav tools";
+        "brand nav tools"
     }
     .hero {
         grid-template-areas: 
         "feature"
-        "action";
+        "action"
     }
     .hero .feature {
         display: block;
@@ -154,7 +154,7 @@ main .mobile-ad {
         grid-template-rows: auto 1fr;
         grid-template-areas: 
         "article-feature ad"
-        "listing listing";
+        "listing listing"
     }
     .sidebar {
         display: grid;
@@ -178,16 +178,15 @@ main .mobile-ad {
 
     .hero {
         grid-template-columns: 2fr 1fr;
-        grid-area: hero;
         grid-template-areas: 
-        "feature action";
+        "feature action"
     }
     
     main {
         grid-template-columns: 1fr 2fr;
         grid-template-rows: 1fr;
         grid-template-areas: 
-        "article-feature listing ";
+        "article-feature listing "
     }
     .mobile-ad {
         display: none;
