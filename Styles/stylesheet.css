@@ -195,7 +195,6 @@ main .mobile-ad {
     }
 
     .desktop-ad {
-        grid-area: ad;
         display: block;
     }
 }
